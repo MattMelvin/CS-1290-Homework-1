@@ -1,0 +1,12 @@
+I - Does a string contain any duplicate characters?
+D - Determine if every character in a string is unique and return a boolean
+1 - "caliber" -> true
+    "execute" -> false
+2 - Walk the string and determine if you have seen the current character before or not
+3 - Traversing the string can be done in a for loop and determining if a character has been seen is a conditional
+4 - ...
+5 - ...
+6 - "computer" -> true
+    "ratsliveonnoevilstar" -> false
+7 - Code did not fail
+L - The algorithm itself is very simple, its just a matter of being able use a data structure to simplify the problem 
