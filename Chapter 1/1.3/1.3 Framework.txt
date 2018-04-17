@@ -1,0 +1,12 @@
+I - Change all the spaces in a string to "%20"
+D - Replace the spaces in a given string with "%20" and return the modified string
+1 - "The quick brown fox" -> "The%20quick%20brown%fox"
+2 - Walk the string and everywhere there was a space, write a "%20" instead
+3 - Traversing the string can be done with a for loop and determining if a character is a white space is a conditional
+4 - ...
+5 - ...
+6 - "The quick" -> "The%20quick"
+    "The  quick" -> "The%20%20quick"
+    "The quick " -> ArrayIndexOutOfBoundsException
+7 - The way I replace the space tries to put three characters where one character should be so if the space is at the end of the string it will go out of bounds
+L - 
