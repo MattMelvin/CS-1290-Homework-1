@@ -1,0 +1,20 @@
+class minNode {
+  int value;
+  int min;
+  
+  public minNode(int value, int min) {
+    this.value = value;
+    this.min = min;
+  }
+}
+
+class minStack extends Stack {
+  void push(int value) {
+    int min = Math.min(value, getMin());
+    super.push(new minNode(value, min);
+  }
+  
+  int getMin() {
+    return peek().min;
+  }
+}
