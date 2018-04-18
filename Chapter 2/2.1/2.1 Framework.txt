@@ -1,0 +1,11 @@
+I - Remove elements with duplicate values from a linked list
+D - Remove the nodes with duplicate values from a linked list, return the modified modified linked list
+1 - "1 -> 2 -> 3 -> 3 -> 4" -> "1 -> 2 -> 3 -> 4"
+2 - Walk the list and determine if you have seen its value before or not, if you have remove it
+3 - Walking the list can be done in a loop and determining if the character has been seen or not is a condition or can be solved with a HashSet
+4 - ...
+5 - ...
+6 - "1 -> 1 -> 1" -> "1"
+    "1 -> 2 -> 3" -> "1 -> 2 -> 3"
+7 - I forgot to have the ! in the conition where I add the value to the set but everything else worked
+L - This problem can be solved easily if you use a HashSet to find duplicates, the only difficulty can arise from pointers
