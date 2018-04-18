@@ -1,0 +1,11 @@
+I - Determine if a string is the same itself with a substring moved
+D - Determine if a subtring is in a concatenation of the original string
+1 - "waterbottle","erbottlewat" -> true
+2 - Concatnate the string with itself and check if the second string is in the concatenation, return a boolean
+3 - Checking to see if the strings have the same length is the only condition that might be needed
+4 - ...
+5 - ...
+6 - "gummyworm", "wormgummy" -> true
+    "gummyworm", "gummyworm" -> true
+7 - Code did not fail
+L - Since the substring method is assumed to be given the only difficult part is seeing that you can check for rotations if the string is concatenated with itself
