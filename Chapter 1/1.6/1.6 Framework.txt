@@ -1,0 +1,11 @@
+I - Write a method that compresses strings by counting repeated characters
+D - Compress a string such that it is shorter than the origninal string, return a string
+1 - "aabcccccaaa" -> "a2b1c5a3"
+    "a" -> "a"
+2 - Walk the string, whenever we see repeated character increment a count and whenever we see a new character reset the count, append the characters and counts together
+3 - Traversing the string can be done in a for loop, determining if a character is a repeat is a conditional
+4 - ...
+5 - ...
+6 - "aabcccccaaa" -> "a2b1c5a"
+7 - Original implementation did not recognize a repeated character later in the string if had already been seen before
+L - StringBuilders are very useful and HashSets are not actually always the solution to everything
