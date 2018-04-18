@@ -1,0 +1,14 @@
+I - Write a method that if an element in a given matrix is zero, sets its entire row and column to zero
+D - Set a row and column in a matrix to zero if an element is zero, return the modified array
+1 - 0 1 1    0 0 0
+    1 1 1 -> 0 1 1
+    1 1 1    0 1 1
+2 - Traverse the array, if we see a zero set every element in the same row and column to zero
+3 - Traversing the array can be done in nested loops and checking if an element is zero is conditional
+4 - ...
+5 - ...
+6 - 1 1 1    1 1 0
+    1 1 0 -> 0 0 0
+    1 1 1    1 1 0
+7 - Code did not fail
+L - The method is pretty simple but having triply nested loops is terrible for runtime
