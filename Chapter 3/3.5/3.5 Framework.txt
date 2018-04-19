@@ -1,0 +1,10 @@
+I - Write a method that sorts a stack with the lowest element on top
+D - Sort a stack using only another stack as a temporary storage
+1 - "10 -> 5", "3 -> 1", sort() -> "10", "5", "3 -> 1" -> "5", "10 -> 3 -> 1" -> "5", "", "10 -> 3 -> 1" -> "5", "10", "3 -> 1" -> "10" , "5 -> 3 -> 1" -> "10 -> 5 -> 3 -> 1"
+2 - Hold the next element to be sorted by itself, pop from the sorted stack and push onto other stack until lone element's position is found, push onto sorted stack,
+3 - Pushing and popping is done in while loops with the condition that they are not empty
+4 - ...
+5 - ...
+6 - "10 -> 5", "3 -> 1", sort() -> "10", "5", "3 -> 1" -> "5", "10 -> 3 -> 1" -> "5", "", "10 -> 3 -> 1" -> "5", "10", "3 -> 1" -> "10" , "5 -> 3 -> 1" -> "10 -> 5 -> 3 -> 1", I really didn't want to type that again
+7 - Code worked as expected
+L - The algorithm isn't really that complicated but it could have been made easier if an additional stack could have been used instead of a temporary variable
