@@ -1,0 +1,10 @@
+I - Implement a stack that has function return the element with the minimum value
+D - Design a heap using a stack, return the minimum element with a function
+1 - "5 -> 3 -> 1 -> 4 -> 2", min -> "1"
+2 - Keep track of the new minimum node whenever a new node is pushed or the old minimum is popped
+3 - No loops are needed but there needs to be a conditional for determining the minimum when pushing or popping
+4 - ...
+5 - ...
+6 - "5 -> 3 -> 1 -> 4 -> 2", min -> "1"
+7 - The class works but its not very efficient since every node keeps track of the minimum value and thus must be changed when there is a new min
+L - StackWithMin is basically another implementation of a heap and an inefficent one at that, it could have been better if we kept track of the min with a single variable for the stack rather than one for each node
