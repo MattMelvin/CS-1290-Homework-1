@@ -1,0 +1,10 @@
+I - Given a circular linked list, determin with node is the beginning of the loop
+D - Find the first node in a looped linked list and return the node
+1 - "A -> B -> C -> D -> C" -> "C"
+2 - Walk the list until we reach a node (or value in my implementation) that we have seen before
+3 - Traversing is done in loops and checking for repeated nodes is a conditional
+4 - ...
+5 - ...
+6 - "1 -> 2 -> 3 -> 1" -> '1"
+7 - My implementation worked with the assumption that a node is the same if it has the same value, I could have use a HashMap instead of HashSet if I were going to check the memory reference
+L - If I needed to check the location in memory rather than the value of the node, I would have needed to use a different data structure
