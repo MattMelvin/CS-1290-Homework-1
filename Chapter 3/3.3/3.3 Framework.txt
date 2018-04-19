@@ -1,0 +1,10 @@
+I - Create a data structure that is made up of stacks that all have a capacity
+D - Make a class with a set of stacks that makes a new stack when the last becomes full
+1 - "1 -> 2", "3 -> 4", "5 -> 6", push(7) -> "1 -> 2", "3 -> 4", "5 -> 6", "7"
+2 - Create a new stack when the capacity of the previous stack is exceeded and push onto that stack, remove a stack when it is empty
+3 - Loops are not needed but conditionals are needed to determine if a stack's capacity has been exceeded or if it is empty
+4 - ...
+5 - ...
+6 - "1 -> 2", "3 -> 4", "5", pop(7) -> "1 -> 2", "3 -> 4
+7 - Class worked as expected but I'm sure I have a bug somewhere 
+L - Of the problems in chapter 3 thus far this makes the most sense to me, the implementation is not too difficult. However I do not see it being advantageous to use of a single stack (unless the set of stacks were sorted)
