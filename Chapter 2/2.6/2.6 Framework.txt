@@ -1,0 +1,11 @@
+I - Is a given linked list a palindrome?
+D - Determine if a linked list is the same forwards and backwards and return a boolean
+1 - "0 -> 1 -> 2 -> 1 -> 0" -> "true"
+    "0 -> 1" -> "false"
+2 - Walk the list from the front and back and determine if the characters are the same until you meet in the middle
+3 - Walking the list can be done with loops and checking if the have the same character is a conditional
+4 - ...
+5 - ...
+6 - "0 -> 2 -> 2 -> 2 -> 0" -> "true"
+7 - Code did not fail
+L - The way I solved this problem by hand was completely different than the code since even though its a singly linked list I can see all the characters before and after. So reversing the list is the best I could do to match my algorithm
