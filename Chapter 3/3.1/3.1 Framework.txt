@@ -1,0 +1,14 @@
+I - Use a single array to implement three stacks
+D - Represent three different stacks only using one array
+1 -                       "1 -> 2"
+    [1, 2, 3, 4, 5, 6] -> "3 -> 4"
+                          "5 -> 6"
+2 - Each stack can be an be contained from one index to another within the array (0-n/3, n/3-2n/3, 2n/3-n)
+3 - You do not need any loops for any methods in the class but there are tons of conditionals for push, pop, and their helper methods
+4 - ...
+5 - ...
+6 -                                "1 -> 2"
+    [1, 2, 0, 3, 4, 0, 5, 6, 0] -> "3 -> 4"
+                                   "5 -> 6"
+7 - As far as I can tell the code worked but I'm sure there is a bug somewhere that I would run into if I used or tested this class more extensivly
+L - I knew from CS 2302 that you could use an array to represent a heap but I did not know they would work for stacks too. Although this does introduce a problem of a size limit
