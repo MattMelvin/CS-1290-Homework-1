@@ -1,0 +1,10 @@
+I - Determine if two linked lists point to the same node at any point
+D - Find any intersecting nodes between two lists and return the node
+1 - "3 -> 1 -> 9", "5 -> 1 -> 8", "1"
+2 - Walk the lists and determine if any two nodes have the same previous node
+3 - Traversing the string is done in loop and checking previous nodes is done in conditionals
+4 - ...
+5 - ...
+6 - "3 -> 1 -> 9", "5 -> 1 -> 8", "1"
+7 - Since my implementation just checks for matching data due to a missassumption, it technically works but the way the problems was actually stated
+L - I actually didn't this one the right way because I misread the problem, but if we assume the lists intersect at nodes that have the same data then my implementation works
