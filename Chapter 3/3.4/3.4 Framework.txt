@@ -1,0 +1,11 @@
+I - Implement a queue using two stacks
+D - Create our own queue that uses two stacks to keep track of elements
+1 - "1 -> 2 -> 3", remove -> "3 -> 2 -> 1" -> "2 -> 1", "3"
+2 - Push to the first stack normally for an add but when you want to remove you pop from the reversed stack
+3 - Shifting elements to the second stack/reversing can be implemented with loop and conditional is needed to know when it is empty
+4 - ...
+5 - ...
+6 - "1 -> 2 -> 3", add(4) -> "1 -> 2 -> 3 -> 4"
+    "1 -> 2 -> 3 -> 4", remove -> "4 -> 3 -> 2 -> 1" -> "3 -> 2 -> 1", "4"
+7 - Initially I was shifting the stacks on every push which lead to an incorrect ordering, but I changed it to be called on peek/remove instead which seems to work
+L - I had actually already done this when learning about stacks and queues but the concept behind it is pretty simple. Since they are FILO and FIFO respectively, reversing one esentially gives you the other
